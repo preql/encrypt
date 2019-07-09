@@ -7,6 +7,7 @@ user_input = STDIN.gets.chomp
 puts "Каким способом зашифровать:"
 puts "1. MD5"
 puts "2. SHA1"
+puts "3. SHA2"
 user_choice_method = STDIN.gets.to_i
 
 until user_choice_method.between?(1, 3)
